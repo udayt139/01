@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Chrome 77.0.3865.90,,,2019-10-11 11:33:45,2019-10-11 11:36:07,2m - 22.766s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Login/GSM Login,Chrome 77.0.3865.90,,,2019-10-11 11:33:45,2019-10-11 11:34:03,18.006s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 11:33:46,2019-10-11 11:33:55,8.947s,PASSED
+"navigateToUrl(""https://sandbox.gsm.auto/logout"")",Chrome 77.0.3865.90,,,2019-10-11 11:33:55,2019-10-11 11:33:59,3.716s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.90,,,2019-10-11 11:33:59,2019-10-11 11:34:02,3.251s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), ""sankaran@totient.co.in"")",Chrome 77.0.3865.90,,,2019-10-11 11:34:02,2019-10-11 11:34:03,0.880s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Create Offer,Chrome 77.0.3865.90,,,2019-10-11 11:34:03,2019-10-11 11:34:41,38.020s,FAILED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Chrome 77.0.3865.90,,,2019-10-11 11:34:03,2019-10-11 11:34:41,37.611s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Edit Offer,Chrome 77.0.3865.90,,,2019-10-11 11:34:41,2019-10-11 11:35:10,28.685s,FAILED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 11:34:42,2019-10-11 11:35:10,28.200s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Delete Offer,Chrome 77.0.3865.90,,,2019-10-11 11:35:10,2019-10-11 11:35:38,28.568s,FAILED
+"click(findTestObject(""Object Repository/Delete Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 11:35:10,2019-10-11 11:35:38,28.202s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Logout/GSM Logout,Chrome 77.0.3865.90,,,2019-10-11 11:35:38,2019-10-11 11:36:07,28.999s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Chrome 77.0.3865.90,,,2019-10-11 11:35:39,2019-10-11 11:36:07,28.194s,FAILED

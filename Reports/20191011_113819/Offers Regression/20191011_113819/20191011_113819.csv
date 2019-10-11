@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,,,,2019-10-11 11:38:23,2019-10-11 11:38:28,5.232s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Login/GSM Login,,,,2019-10-11 11:38:23,2019-10-11 11:38:25,1.638s,FAILED
+"openBrowser("""")",,,,2019-10-11 11:38:24,2019-10-11 11:38:25,0.967s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Create Offer,,,,2019-10-11 11:38:25,2019-10-11 11:38:26,0.987s,FAILED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",,,,2019-10-11 11:38:26,2019-10-11 11:38:26,0.349s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Edit Offer,,,,2019-10-11 11:38:26,2019-10-11 11:38:27,0.701s,FAILED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",,,,2019-10-11 11:38:27,2019-10-11 11:38:27,0.153s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Delete Offer,,,,2019-10-11 11:38:27,2019-10-11 11:38:28,0.948s,FAILED
+"click(findTestObject(""Object Repository/Delete Offer/Page_Templates/a_Offers""))",,,,2019-10-11 11:38:27,2019-10-11 11:38:28,0.186s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Logout/GSM Logout,,,,2019-10-11 11:38:28,2019-10-11 11:38:28,0.401s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",,,,2019-10-11 11:38:28,2019-10-11 11:38:28,0.096s,FAILED
