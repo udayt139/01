@@ -3,7 +3,7 @@
    <description></description>
    <name>a_New Offer</name>
    <tag></tag>
-   <elementGuidId>bf633d98-5b61-4abc-8ee0-178ca24dac64</elementGuidId>
+   <elementGuidId>7e916277-975c-4848-a68f-7baed7b8a397</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
