@@ -16,15 +16,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://sandbox.gsm.auto/logout')
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Object Repository/GSM Login/Page_GSM Portal/button_Log in'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'), 'sankaran@totient.co.in')
+WebUI.setText(findTestObject('Object Repository/GSM Login/Page_GSM Login/input_Email Address_email'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/GSM Login/Page_GSM Login/input_Password_password'), '4bOuNFpH31s4Qkh1shYRow==')
+WebUI.setEncryptedText(findTestObject('Object Repository/GSM Login/Page_GSM Login/input_Password_password'), password)
 
 WebUI.click(findTestObject('Object Repository/GSM Login/Page_GSM Login/button_Log In'))
 
