@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Chrome 77.0.3865.90,,,2019-10-11 14:50:50,2019-10-11 14:55:55,5m - 4.535s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Login/GSM Login,Chrome 77.0.3865.90,,,2019-10-11 14:50:51,2019-10-11 14:52:49,1m - 58.636s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 14:50:51,2019-10-11 14:51:01,9.607s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.90,,,2019-10-11 14:51:01,2019-10-11 14:51:25,24.418s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.90,,,2019-10-11 14:51:25,2019-10-11 14:52:35,1m - 9.986s,PASSED
+delay(3),Chrome 77.0.3865.90,,,2019-10-11 14:52:35,2019-10-11 14:52:38,3.048s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Chrome 77.0.3865.90,,,2019-10-11 14:52:38,2019-10-11 14:52:42,3.542s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-11 14:52:42,2019-10-11 14:52:44,2.005s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Password_password""), password)",Chrome 77.0.3865.90,,,2019-10-11 14:52:44,2019-10-11 14:52:47,3.395s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.90,,,2019-10-11 14:52:47,2019-10-11 14:52:49,2.187s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Create Offer,Chrome 77.0.3865.90,,,2019-10-11 14:52:49,2019-10-11 14:54:24,1m - 34.659s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Chrome 77.0.3865.90,,,2019-10-11 14:52:50,2019-10-11 14:53:19,28.943s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 14:53:19,2019-10-11 14:53:22,3.809s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_New Offer""))",Chrome 77.0.3865.90,,,2019-10-11 14:53:22,2019-10-11 14:53:26,3.743s,PASSED
+"setText(findTestObject(""Create Offer/Page_Offers/input_Offer Name_name""), ""abc"")",Chrome 77.0.3865.90,,,2019-10-11 14:53:26,2019-10-11 14:53:46,20.123s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Marketing Category_marketingCategory""))",Chrome 77.0.3865.90,,,2019-10-11 14:53:46,2019-10-11 14:53:49,2.233s,PASSED
+"setText(findTestObject(""Create Offer/Page_Offers/textarea_Offer Description_description""), ""abc"")",Chrome 77.0.3865.90,,,2019-10-11 14:53:49,2019-10-11 14:53:52,3.273s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select""))",Chrome 77.0.3865.90,,,2019-10-11 14:53:52,2019-10-11 14:53:54,2.214s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_English (US)""))",Chrome 77.0.3865.90,,,2019-10-11 14:53:54,2019-10-11 14:53:56,2.249s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Next""))",Chrome 77.0.3865.90,,,2019-10-11 14:53:56,2019-10-11 14:53:59,2.341s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Title_title""), ""abc"")",Chrome 77.0.3865.90,,,2019-10-11 14:53:59,2019-10-11 14:54:07,8.640s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Subtitle_subtitle""), ""abc"")",Chrome 77.0.3865.90,,,2019-10-11 14:54:07,2019-10-11 14:54:11,3.356s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/textarea_Body_body""), ""abc"")",Chrome 77.0.3865.90,,,2019-10-11 14:54:11,2019-10-11 14:54:14,3.372s,PASSED
+"setText(findTestObject(""Object Repository/Create Offer/Page_Offers/input_Offer_offer""), ""abc"")",Chrome 77.0.3865.90,,,2019-10-11 14:54:14,2019-10-11 14:54:17,3.436s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Select_1""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:17,2019-10-11 14:54:20,2.166s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/a_No Expiration Date""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:20,2019-10-11 14:54:22,2.254s,PASSED
+"click(findTestObject(""Object Repository/Create Offer/Page_Offers/button_Create""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:22,2019-10-11 14:54:24,2.247s,PASSED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Edit Offer,Chrome 77.0.3865.90,,,2019-10-11 14:54:24,2019-10-11 14:55:05,40.615s,FAILED
+delay(5),Chrome 77.0.3865.90,,,2019-10-11 14:54:24,2019-10-11 14:54:29,5.004s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:29,2019-10-11 14:54:32,2.316s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/a_abc""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:32,2019-10-11 14:54:45,12.929s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Yes Edit""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:45,2019-10-11 14:54:47,2.301s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/input_Aquisition_marketingCategory""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:47,2019-10-11 14:54:57,9.849s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Next""))",Chrome 77.0.3865.90,,,2019-10-11 14:54:57,2019-10-11 14:54:59,2.326s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-11 14:54:59,2019-10-11 14:55:01,2.006s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Offers/button_Make Active""))",Chrome 77.0.3865.90,,,2019-10-11 14:55:01,2019-10-11 14:55:05,3.618s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Delete Offer,Chrome 77.0.3865.90,,,2019-10-11 14:55:05,2019-10-11 14:55:50,45.331s,FAILED
+delay(5),Chrome 77.0.3865.90,,,2019-10-11 14:55:05,2019-10-11 14:55:10,5.001s,PASSED
+"click(findTestObject(""Edit Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 14:55:10,2019-10-11 14:55:12,2.337s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-11 14:55:12,2019-10-11 14:55:14,2.004s,PASSED
+"click(findTestObject(""Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox""))",Chrome 77.0.3865.90,,,2019-10-11 14:55:14,2019-10-11 14:55:18,3.681s,PASSED
+"click(findTestObject(""Object Repository/Delete Offer/Page_Offers/span_Delete""))",Chrome 77.0.3865.90,,,2019-10-11 14:55:18,2019-10-11 14:55:50,32.018s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Logout/GSM Logout,Chrome 77.0.3865.90,,,2019-10-11 14:55:50,2019-10-11 14:55:55,4.725s,PASSED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Chrome 77.0.3865.90,,,2019-10-11 14:55:50,2019-10-11 14:55:53,2.216s,PASSED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Log Out""))",Chrome 77.0.3865.90,,,2019-10-11 14:55:53,2019-10-11 14:55:55,2.287s,PASSED

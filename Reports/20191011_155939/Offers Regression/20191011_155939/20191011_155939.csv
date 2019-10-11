@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Chrome 77.0.3865.90,,,2019-10-11 16:01:26,2019-10-11 16:04:05,2m - 38.983s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Login/GSM Login,Chrome 77.0.3865.90,,,2019-10-11 16:01:26,2019-10-11 16:01:42,15.384s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 16:01:27,2019-10-11 16:01:39,12.188s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.90,,,2019-10-11 16:01:39,2019-10-11 16:01:42,2.344s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/UI/Create Offer,Chrome 77.0.3865.90,,,2019-10-11 16:01:42,2019-10-11 16:02:15,33.053s,FAILED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Chrome 77.0.3865.90,,,2019-10-11 16:01:42,2019-10-11 16:02:15,32.748s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/UI/Edit Offer,Chrome 77.0.3865.90,,,2019-10-11 16:02:15,2019-10-11 16:02:52,37.556s,FAILED
+delay(5),Chrome 77.0.3865.90,,,2019-10-11 16:02:15,2019-10-11 16:02:20,5.031s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 16:02:20,2019-10-11 16:02:52,32.237s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/UI/Delete Offer,Chrome 77.0.3865.90,,,2019-10-11 16:02:52,2019-10-11 16:03:32,39.869s,FAILED
+delay(5),Chrome 77.0.3865.90,,,2019-10-11 16:02:53,2019-10-11 16:02:58,5.024s,PASSED
+delay(2),Chrome 77.0.3865.90,,,2019-10-11 16:02:58,2019-10-11 16:03:00,2.005s,PASSED
+"click(findTestObject(""Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox""))",Chrome 77.0.3865.90,,,2019-10-11 16:03:00,2019-10-11 16:03:32,32.154s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Logout/GSM Logout,Chrome 77.0.3865.90,,,2019-10-11 16:03:32,2019-10-11 16:04:05,32.558s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Chrome 77.0.3865.90,,,2019-10-11 16:03:32,2019-10-11 16:04:05,32.193s,FAILED

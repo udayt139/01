@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Test Scenarios/Regression/Login/GSM Login","testCaseId":"Test Cases/Test Scenarios/Regression/Login/GSM Login","bindedValues":{"password":"\u0027sandbox85!\u0027","url":"\u0027https://sandbox.gsm.auto/logout\u0027","username":"\u0027sankaran@totient.co.in\u0027"}}
+{"testCaseName":"Test Cases/Test Scenarios/Regression/Content Management/Create Offer","testCaseId":"Test Cases/Test Scenarios/Regression/Content Management/Create Offer"}
+{"testCaseName":"Test Cases/Test Scenarios/Regression/Content Management/Edit Offer","testCaseId":"Test Cases/Test Scenarios/Regression/Content Management/Edit Offer"}
+{"testCaseName":"Test Cases/Test Scenarios/Regression/Content Management/Delete Offer","testCaseId":"Test Cases/Test Scenarios/Regression/Content Management/Delete Offer"}
+{"testCaseName":"Test Cases/Test Scenarios/Regression/Logout/GSM Logout","testCaseId":"Test Cases/Test Scenarios/Regression/Logout/GSM Logout"}

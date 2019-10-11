@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Chrome 77.0.3865.90,,,2019-10-11 14:19:04,2019-10-11 14:21:54,2m - 49.727s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Login/GSM Login,Chrome 77.0.3865.90,,,2019-10-11 14:19:05,2019-10-11 14:19:34,29.861s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 14:19:05,2019-10-11 14:19:14,9.353s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.90,,,2019-10-11 14:19:14,2019-10-11 14:19:20,5.578s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.90,,,2019-10-11 14:19:20,2019-10-11 14:19:26,6.121s,PASSED
+delay(3),Chrome 77.0.3865.90,,,2019-10-11 14:19:26,2019-10-11 14:19:29,3.042s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Chrome 77.0.3865.90,,,2019-10-11 14:19:29,2019-10-11 14:19:33,3.682s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Password_password""), password)",Chrome 77.0.3865.90,,,2019-10-11 14:19:33,2019-10-11 14:19:34,1.617s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Create Offer,Chrome 77.0.3865.90,,,2019-10-11 14:19:34,2019-10-11 14:20:07,32.496s,FAILED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Chrome 77.0.3865.90,,,2019-10-11 14:19:35,2019-10-11 14:20:07,32.060s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Edit Offer,Chrome 77.0.3865.90,,,2019-10-11 14:20:07,2019-10-11 14:20:44,37.270s,FAILED
+delay(5),Chrome 77.0.3865.90,,,2019-10-11 14:20:07,2019-10-11 14:20:12,5.004s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 14:20:12,2019-10-11 14:20:44,31.953s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Offers/Delete Offer,Chrome 77.0.3865.90,,,2019-10-11 14:20:44,2019-10-11 14:21:22,37.256s,FAILED
+delay(5),Chrome 77.0.3865.90,,,2019-10-11 14:20:45,2019-10-11 14:20:50,5.003s,PASSED
+"click(findTestObject(""Edit Offer/Page_Templates/a_Offers""))",Chrome 77.0.3865.90,,,2019-10-11 14:20:50,2019-10-11 14:21:22,31.957s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Regression/Logout/GSM Logout,Chrome 77.0.3865.90,,,2019-10-11 14:21:22,2019-10-11 14:21:54,32.276s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Chrome 77.0.3865.90,,,2019-10-11 14:21:22,2019-10-11 14:21:54,31.956s,FAILED

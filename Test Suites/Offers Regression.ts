@@ -11,33 +11,51 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3f35d27d-f2d5-4c71-a7e8-fedd62875bbc</testSuiteGuid>
    <testCaseLink>
-      <guid>0337b04c-573a-4717-81bc-8921b3edd76f</guid>
+      <guid>079e5964-dfe7-4ea6-8d3c-c02f08cb1a7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenarios/Regression/Login/GSM Login</testCaseId>
+      <testCaseId>Test Cases/Test Scenarios/Modules/Login/GSM Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4abdd1c-cd87-420f-ad3e-a06ae16f8d94</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>548ee1ab-c525-46d0-acbf-2e6338864b56</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eee78943-e84f-432f-9287-e7909419c2cc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f8538b4a-a178-40a3-ab7c-4f1ad806862b</guid>
+      <guid>5b50aeeb-b058-4236-a554-70874b363c66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenarios/Regression/Offers/Create Offer</testCaseId>
+      <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/UI/Create Offer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>89f9f788-1496-4c0d-83e6-f8929c836b87</guid>
+      <guid>f1155c90-24fd-4ce8-93b9-7e77f65770b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenarios/Regression/Offers/Edit Offer</testCaseId>
+      <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/UI/Edit Offer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>189903c4-26d8-424e-81a1-ed962ce6c6d2</guid>
+      <guid>ad7f7f7a-d2eb-4eff-8932-ef371ebea626</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenarios/Regression/Offers/Delete Offer</testCaseId>
+      <testCaseId>Test Cases/Test Scenarios/Modules/Content Management/UI/Delete Offer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c5d13cf-7660-47d1-a451-770c41da16f1</guid>
+      <guid>40a277ea-e94b-457f-ad7d-74ff1abde1a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenarios/Regression/Logout/GSM Logout</testCaseId>
+      <testCaseId>Test Cases/Test Scenarios/Modules/Logout/GSM Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
